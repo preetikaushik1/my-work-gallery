@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+body{
+    background: rgb(50, 50, 50);
+}
+
+.outerbox{
+    width: 100%;
+    float: left;
+	
+}
+
+.first-box{
+    width:100%;
+    height: 80vh;
+    float: left;
+   background-image: url('images/banner.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.shadow-box2{
+    width: 100%;
+    float: left;
+    height: 80vh;
+    background: rgba(67, 67, 67, 0.5) 
+}
+
+.creating-text{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(152, 151, 151);
+    margin-top: 10%;
+    margin-left: 30px;
+}
+.we-text{
+    font-size:38px;
+    font-weight: 600;
+    color: rgb(193, 64, 253);
+    margin-top: 25px;
+    margin-left: 30px; 
+}
+.we-text2{
+    font-size:38px;
+    font-weight: 600;
+    color: rgb(193, 64, 253);
+     margin-left: 30px; 
+}
+
+
+
+
+
+
+.second-box{
+    width: 100%;
+    float: left;
+    padding: 33px;
+}
+
+.left-box{
+    width: 48.5%;
+    float: left;
+
+}
+.right-box{
+    width: 48.5%;
+    float: right;
+    margin-top: 60px;
+}
+
+.left-imgbox1{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    background-image: url(images/mobile-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.left-imgbox1:hover  .shadow-box{
+    visibility: visible ;
+    
+}
+
+.left-imgbox2{
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+   
+}
+.imgbox1{
+    width: 47%;
+    float: left;
+    height: 200px;
+    background-image: url(images/mobile-image2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imgbox1:hover  .shadow-box1{
+    visibility: visible ;
+}
+
+.imgbox2{
+    width: 47%;
+    float: right;
+    height: 200px;
+    background-image: url(images/notebook-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imgbox2:hover  .shadow-box1{
+    visibility: visible ;
+}
+
+.left-imgbox3{
+    width: 100%;
+    float: left;
+    height: 100vh;
+   background-image: url(images/mobile-image3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.left-imgbox3:hover  .shadow-box{
+    visibility: visible ;
+}
+
+
+
+.right-imgbox1{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    background-image: url(images/mobile-image5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.right-imgbox1:hover  .shadow-box{
+    visibility: visible ;
+}
+
+.right-imgbox2{
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+}
+.rimgbox1{
+    width: 47%;
+    float: left;
+    height: 200px;
+ background-image: url(images/notebook-image.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .rimgbox1:hover  .shadow-box1{
+    visibility: visible ;
+}
+
+.rimgbox2{
+    width: 47%;
+    float: right;
+    height: 200px;
+    background-image: url(images/mobile-image4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.rimgbox2:hover  .shadow-box1{
+    visibility: visible ;
+}
+
+
+.right-imgbox3{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    margin-top: 40px;
+    background-image: url(images/laptop-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-imgbox3:hover  .shadow-box{
+    visibility: visible ;
+}
+
+.shadow-box{
+    width: 100%;
+    float: left;
+    height: 610px;
+    background: rgba(45, 45, 45, 0.5) ;
+    visibility: hidden;
+    cursor: pointer; 
+}
+.shadow-box1{
+    width: 100%;
+    float: left;
+    height: 200px;
+    background: rgba(45, 45, 45, 0.5) ;
+    visibility: hidden;
+    cursor: pointer;
+ }
+ .web-text{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(235, 232, 232);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+ }
+
+
+
+ .work-text a{
+    color: rgb(255, 254, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+
+ }
+
+
+
+
+
+
+ 
